@@ -283,13 +283,14 @@ MIT License - See [LICENSE](LICENSE)
 
 |    Role        |               Name                     |     Contribution         |
 |----------------|----------------------------------------|--------------------------|
-| Lead Developer | Vinit Kumar Mandal | Vivek Kumar Gupta | Full Stack, Promo System |
-| Core Developer | Vinit Kumar Mandal | Vivek Kumar Gupta | Features, Testing        |
+| Lead Developer | Vivek Kumar Gupta |Vinit Kumar Mandal | Full Stack, Promo System |
+| Core Developer | Vivek Kumar Gupta | Vinit Kumar Mandal | Features, Testing        |
 | UI/UX | Community | Design Feedback |
- 
- **Social Media**
- Linkdin: www.linkedin.com/in/vinit-kumar-mandal
- Linkdin: www.linkedin.com/in/vivekkumargupta01
+
+## 🔗 Social Media
+
+- **LinkedIn**: [Vivek Kumar Gupta](https://www.linkedin.com/in/vivekkumargupta01)
+- **LinkedIn**: [Vinit Kumar Mandal](https://www.linkedin.com/in/vinit-kumar-mandal)
 
 ---
 
