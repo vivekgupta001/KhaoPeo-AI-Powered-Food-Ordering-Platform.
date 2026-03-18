@@ -11,7 +11,7 @@
 // ===========================================================================================
 
 // Define the database key for localStorage
-const DB_KEY = 'Zaikalok_data';
+const DB_KEY = 'khaopeo_data';
 
 /**
  * LOCALHOST DATABASE: Get all data from browser's localStorage
@@ -208,15 +208,15 @@ function toggleVoiceInput() {
 const chatbotKnowledge = {
     landing: {
         questions: [
-            { q: "What is Zaikalok?", a: "Zaikalok is a food ordering platform that connects customers with restaurants and delivery partners. We make ordering food quick, easy, and convenient!" },
+            { q: "What is khaopeo?", a: "khaopeo is a food ordering platform that connects customers with restaurants and delivery partners. We make ordering food quick, easy, and convenient!" },
             { q: "How do I register as a customer?", a: "Click on 'Sign Up' button, select 'Customer', enter your email, password, and phone number. Verify your email and you're ready to order!" },
             { q: "How do I register as a restaurant owner?", a: "Go to Sign Up, select 'Restaurant Owner', provide your restaurant details including name, address, cuisine type, and banking information for receiving payments." },
             { q: "How do I register as a delivery partner?", a: "Click Sign Up, select 'Delivery Partner', provide your identification, vehicle details, and bank account. Complete verification and start accepting delivery orders!" },
             { q: "How do I reset my password?", a: "Click 'Forgot Password' on the login page, enter your email, and we'll send you a reset link. Check your email and follow the instructions." },
-            { q: "Who created Zaikalok?", a: "Zaikalok was created by a dedicated team of developers and entrepreneurs, Vinit and Vivek, who are passionate about revolutionizing food delivery in campus areas." },
-            { q: "How can I contact customer support?", a: "You can reach our support team via email at support@Zaikalok.com or use the 'Help' section in your account for live chat support." },
+            { q: "Who created khaopeo?", a: "khaopeo was created by a dedicated team of developers and entrepreneurs, Vinit and Vivek, who are passionate about revolutionizing food delivery in campus areas." },
+            { q: "How can I contact customer support?", a: "You can reach our support team via email at support@khaopeo.com or use the 'Help' section in your account for live chat support." },
             { q: "What payment methods do you accept?", a: "We accept credit cards, debit cards, UPI, digital wallets, and cash on delivery options depending on your location." },
-            { q: "Is my data secure on Zaikalok?", a: "Yes! We use industry-standard encryption and follow all data protection regulations to keep your information safe and secure." }
+            { q: "Is my data secure on khaopeo?", a: "Yes! We use industry-standard encryption and follow all data protection regulations to keep your information safe and secure." }
         ]
     },
     customer: {
@@ -237,7 +237,7 @@ const chatbotKnowledge = {
             { q: "How do I manage my restaurant menu?", a: "Log in to your dashboard, go to 'Menu Management', add/edit/delete items with prices, descriptions, and photos." },
             { q: "How do I see incoming orders?", a: "New orders appear in real-time on your dashboard. You can accept, reject, or mark as ready for delivery." },
             { q: "How do I withdraw my earnings?", a: "Go to 'Payments' section, view your account balance, and request withdrawal. Funds transfer within 2-3 business days." },
-            { q: "What commission does Zaikalok charge?", a: "Our standard commission is 15-20% depending on your restaurant tier. Premium restaurants get better rates." },
+            { q: "What commission does khaopeo charge?", a: "Our standard commission is 15-20% depending on your restaurant tier. Premium restaurants get better rates." },
             { q: "Can I set different delivery times for different areas?", a: "Yes! Use the 'Delivery Zones' feature to set custom delivery times and charges for different areas." },
             { q: "How do I update my restaurant information?", a: "Edit your restaurant profile including name, description, address, phone, and operating hours in the settings." },
             { q: "What analytics are available?", a: "Access comprehensive analytics showing daily orders, revenue, popular items, customer feedback, and traffic insights." },
@@ -381,7 +381,7 @@ function findAnswer(userMessage) {
     }
     
     // Step 5: If still no good match, return helpful response with suggestions
-    const supportResponse = `I couldn't find a direct answer to "${userMessage}" in my knowledge base.\n\n📞 **Contact Customer Support:**\n\n📧 Email: support@Zaikalok.com\n📱 Phone: +1-800-Zaikalok\n⏰ Hours: Monday-Friday 9AM-9PM IST\n💬 Live Chat: Available in Help section\n🌐 Website: www.Zaikalok.com/support\n\nOur support team will help you with any questions! You can also try asking similar questions from the suggestions below.`;
+    const supportResponse = `I couldn't find a direct answer to "${userMessage}" in my knowledge base.\n\n📞 **Contact Customer Support:**\n\n📧 Email: support@khaopeo.com\n📱 Phone: +1-800-khaopeo\n⏰ Hours: Monday-Friday 9AM-9PM IST\n💬 Live Chat: Available in Help section\n🌐 Website: www.khaopeo.com/support\n\nOur support team will help you with any questions! You can also try asking similar questions from the suggestions below.`;
     
     return supportResponse;
 }
@@ -406,7 +406,7 @@ function initChatbot() {
     const chatbotHTML = `
         <div id="chatbot-widget" class="chatbot-widget">
             <div class="chatbot-header">
-                <div class="chatbot-title">Zaikalok Assistant</div>
+                <div class="chatbot-title">khaopeo Assistant</div>
                 <div class="chatbot-controls">
                     <button id="chatbot-mute-btn" class="chatbot-btn" title="Mute/Unmute Voice">
                         <span class="mute-icon">🔊</span>
@@ -421,7 +421,7 @@ function initChatbot() {
                 <div class="chatbot-message assistant">
                     <div class="message-content">
                         ${!currentUser 
-                            ? "👋 Welcome to Zaikalok! I'm here to help. What would you like to know?" 
+                            ? "👋 Welcome to khaopeo! I'm here to help. What would you like to know?" 
                             : `👋 Welcome back! I'm here to help with your ${currentUser.role} needs.`}
                     </div>
                 </div>
@@ -466,7 +466,7 @@ function updateChatbotForCurrentUser() {
         welcomeMsg.className = 'chatbot-message assistant user-updated';
         welcomeMsg.innerHTML = `<div class="message-content">
             ${!currentUser 
-                ? "👋 Welcome to Zaikalok! I'm here to help. What would you like to know?" 
+                ? "👋 Welcome to khaopeo! I'm here to help. What would you like to know?" 
                 : `👋 Welcome back! I'm here to help with your ${currentUser.role} needs.`}
         </div>`;
         
@@ -620,7 +620,7 @@ let allData = getAllData();
 
 // Configuration
 const config = {
-    app_title: "Zaikalok",
+    app_title: "khaopeo",
     tagline: "Order Food from Campus & Beyond",
     admin_username: "admin",
     admin_password: "admin123"

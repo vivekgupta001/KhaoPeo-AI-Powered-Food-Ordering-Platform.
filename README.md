@@ -1,11 +1,11 @@
-# 🍛 Zaikalok - AI-Powered Food Ordering Platform
+# 🍛 KhaoPeo - AI-Powered Food Ordering Platform
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-5.3-blue.svg)](#)
 [![Status](https://img.shields.io/badge/status-Production%20Ready-brightgreen)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow.svg)](#)
 
-**Zaikalok** is a full-featured, role-based food ordering platform with AI chatbot (voice-enabled) and smart promo code system. Built with vanilla JavaScript—zero dependencies, production-ready.
+**KhaoPeo** is a full-featured, role-based food ordering platform with AI chatbot (voice-enabled) and smart promo code system. Built with vanilla JavaScript—zero dependencies, production-ready.
 
 ---
 
@@ -28,8 +28,8 @@
 
 ```bash
 # Clone & open
-git clone https://github.com/yourusername/Zaikalok.git
-cd Zaikalok
+git clone https://github.com/yourusername/KhaoPeo.git
+cd KhaoPeo
 
 # Option 1: Direct open
 open index.html
@@ -59,7 +59,7 @@ python -m http.server 8000
 ## 📁 Project Structure
 
 ```
-Zaikalok/
+KhaoPeo/
 ├── index.html              # Main HTML
 ├── script.js               # Core app (4,911 lines)
 ├── styles.css              # Complete styling
@@ -166,7 +166,7 @@ Object.keys(localStorage).forEach(key => {
     }
 });
 
-console.log("Zaikalok data cleared!");
+console.log("KhaoPeo data cleared!");
 
 ## For Check the Storage
 let total = 0;
@@ -188,7 +188,7 @@ console.log("LocalStorage used: " + (total / 1024).toFixed(2) + " KB");
 ```bash
 git push origin main
 # Settings → Pages → Main branch → Save
-# Live at: https://yourusername.github.io/Zaikalok
+# Live at: https://yourusername.github.io/KhaoPeo
 ```
 
 ### Netlify / Vercel
@@ -273,13 +273,13 @@ MIT License - See [LICENSE](LICENSE)
 
 ## 📞 Support
 
-- **Email**: support@Zaikalok.com
+- **Email**: support@KhaoPeo.com
 - **Issues**: [GitHub Issues](#)
 - **Discussions**: [GitHub Discussions](#)
 
 ## 👨‍💻 Team
 
-**Zaikalok Development Team**
+**KhaoPeo Development Team**
 
 |    Role        |               Name                     |     Contribution         |
 |----------------|----------------------------------------|--------------------------|
@@ -293,7 +293,7 @@ MIT License - See [LICENSE](LICENSE)
 
 ---
 
-**Made with ❤️ by Zaikalok Team**
+**Made with ❤️ by KhaoPeo Team**
 
 ⭐ **If helpful, please star the repository!**
 
